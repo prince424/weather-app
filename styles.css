@@ -16,7 +16,7 @@ section{
 section #box{
     height: 35em;
     width: 25em;
-    background: linear-gradient( lightgreen, green );
+    background: linear-gradient(to right, lightgreen, green );
     border-radius: 2%;
 }
 
