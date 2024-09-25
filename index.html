@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <div id="box">
+            <div id="city">
+                <label for="">
+                    <input id="inputbox" type="text" placeholder="&nbsp; Enter city Name">   
+                </label>
+                <button id="btn">
+                    <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #000000;"></i>
+                </button>
+            </div>
+
+            <div id="type1">
+                <p>city</p>
+            </div>
+
+            <div id="type2">
+                <h6>
+                <p id="temp">--°C</p>
+                <p>temperature</p></h6>
+            </div>
+
+            <div id="type3">
+                <div id="one">
+                        <p><span id="humid">0</span>%</p>
+                        <p>humidity</p>
+                </div>
+                <div id="two">
+                    <p><span id="wind">0</span>Km/hr</p>
+                        <p>Wind</p>    
+                </div>
+            </div>
+
+            <div id="type4">
+                <div id="three">
+                        <p><span id="feel">0</span>°C</p>
+                        <p>Feels Like</p>
+                </div>
+                <div id="four">
+                    <p><span id="vel">0</span>Km</p>
+                        <p>Velocity</p>
+                </div>
+            </div>
+
+            <div id="type5">
+                <div id="five">
+                    <p><span id="pressure">0</span>hPa</p>
+                        <p>Pressure</p>
+                </div>
+                <div id="six">
+                    <p><span id="uvindex">0</span>mW</p>
+                        <p>UV Index</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
